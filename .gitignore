@@ -48,3 +48,8 @@ web-ui/
 project-requirements.md
 .claude/
 CLAUDE.md
+
+# ===========================================
+# Gradle
+# ===========================================
+.gradle/
