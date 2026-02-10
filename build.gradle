@@ -23,10 +23,11 @@ intellij {
 
 sourceSets {
     main {
-        java.srcDirs = ['src/main/java']
+        java.srcDirs = ['api-codegen-intellij/src/main/java']
+        resources.srcDirs = ['api-codegen-intellij/src/main/resources']
     }
     test {
-        java.srcDirs = ['src/test/java']
+        java.srcDirs = ['api-codegen-intellij/src/test/java']
     }
 }
 
